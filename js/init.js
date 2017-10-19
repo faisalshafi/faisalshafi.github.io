@@ -32,6 +32,7 @@ $(function(){
  $("#loadmore").click(function(e){ // click event for load more
      e.preventDefault();
      $(".check:hidden").slice(0, 20).show(); // select next 10 hidden divs and show them
+     $('#loadmore').css('display','none');
  });
 });
 
