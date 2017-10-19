@@ -1053,6 +1053,7 @@ footer a:hover, footer a:focus { color: #fff; }
 footer .copyright {
     margin: 0;
     padding: 0;
+    color:#6f6f6f;
  }
 footer .copyright li {
     display: inline-block;
@@ -1116,3 +1117,22 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+#loadmore {
+    padding: 10px;
+    text-align: center;
+    background-color: #33739E;
+    color: #fff;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #fff;
+    cursor: pointer;
+    box-shadow: 0 1px 1px #ccc;
+    transition: all 600ms ease-in-out;
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+}
+#loadmore:hover {
+    background-color: #303030;
+}
